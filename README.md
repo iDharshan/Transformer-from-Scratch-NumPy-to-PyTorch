@@ -6,7 +6,7 @@ This project implements the Transformer architecture from the paper ["Attention 
 
 ## Transformer Architecture
 
-![Transformer Architecture](https://nlp.stanford.edu/~johnhew/img/transformer.png)
+<img src="transformer_architecture.png" alt="Transformer Architecture" width="600">
 
 *Source: ["Attention Is All You Need"](https://arxiv.org/abs/1706.03762)*
 
