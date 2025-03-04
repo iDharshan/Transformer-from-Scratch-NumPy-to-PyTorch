@@ -45,7 +45,7 @@ Due to the high computational cost of training a Transformer model from scratch,
 ### Running the NumPy Implementation
 
 ```bash
-python numpy_transformer.py
+python numpy_transformer.ipynb
 ```
 
 This runs the Transformer model built using only NumPy.
@@ -53,11 +53,19 @@ This runs the Transformer model built using only NumPy.
 ### Running the PyTorch Implementation
 
 ```bash
-python torch_transformer.py
+python torch_transformer.ipynb
 ```
+## Sample Output (PyTorch)
 
-This version utilizes PyTorch for GPU acceleration and model training.
+```
+Epoch 1/50, Loss: 4.6052, LR: 0.000088  
+Epoch 2/50, Loss: 4.2000, LR: 0.000177  
+...  
+Epoch 50/50, Loss: 0.0500, LR: 0.000500  
 
+Input: I like to read  
+Predicted translation: <start> j aime lire <end>  
+```
 ## Results & Insights
 
 - The PyTorch implementation demonstrated significantly faster training times due to GPU acceleration.
